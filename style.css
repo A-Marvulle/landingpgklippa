@@ -1,0 +1,115 @@
+/*parallax*/
+main section {
+    height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.definicao {
+    background-image: url('1.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crediblidade{
+    background-image: url('2.png');
+    height: 100%;
+}
+
+.sobre {
+    background-image: url('3.png');
+    height: 100%;
+    padding: 2rem;
+}
+/*fim parallax*/
+
+#parca, #cred, #prod, #sobre, #ctt{
+    scroll-margin-top: 50px;
+}
+
+nav {
+    padding: 0;
+    background-color: #f0f0f0 !important;
+}
+
+nav div div div a:hover {
+    color: #dfaa0a !important;
+}
+
+html {
+    font-family: "Verdana", sans-serif;
+}
+
+body{
+    background-color: #f0f0f0 !important; 
+}
+
+h2 {
+    color: #122872 !important;
+}
+
+.titulo {
+    font-size: 4em;
+}
+
+@media (max-width: 28.75em) {
+    .titulo {
+        font-size: 2em;
+    }
+}
+
+.parceiros img{
+    max-width: 200px;
+}
+
+.parceiros ,.produtos{
+    height: 100%;
+    padding: 2rem;
+}
+
+.vidroEfeito {
+    background: rgba(221, 183, 59, 0.50);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(221, 184, 59, 0.3);
+    padding: 2rem;
+    margin: 1rem;
+    color: #122872;
+}
+
+.def {
+    background: rgba(221, 183, 59, 0.79);
+}
+.sob {
+    background: rgba(255, 255, 255, 0.5);
+    margin: 2em;
+}
+.vidroEfeito p, .sobre p {
+    font-size: 18px;
+}
+
+.crediblidade i {
+    font-size: 3em;
+    margin: 5px;
+    padding: 1em;
+    border: 3px solid #122872;
+    border-radius: 50%;
+}
+.produtos img {
+    max-width: 200px;
+    margin: 0 0 1rem 0;
+}
+
+footer {
+    padding: 2em;
+}
+
+footer div i {
+    color: #dfaa0a;
+    font-size: 18px;
+}
